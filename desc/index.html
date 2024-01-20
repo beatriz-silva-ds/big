@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+   
+    <title> link na bio</title> 
+</head>
+<body>
+
+    <section class="box1">
+        <div class="center">
+
+            <div class="container">
+               
+                <div class="logo">
+                <div class="img-logo"><img src="logo.jpeg"></div>
+            </div><!--logo-->
+
+               <div class="desc">
+                    <h2> Rosiane Studio </h2>
+                    <p>Clik em um dos links abaixo para entrar <br>em contato comigo.</p>
+                </div><!--desc-->
+
+                <div class="link">
+                    <a href="https://wa.me/558189828532 "> <div class="link-a"><i class="bi bi-whatsapp"></i> <h3>WhatsApp</h3></div></a>
+                    <a href="https://www.instagram.com/rosianemaria456?igsh=N2Vjb2czbDlkNjZ3"> <div class="link-a"><i class="bi bi-instagram"></i> <h3>Instagram</h3></div></a>
+                
+                </div><!--link-->
+
+            </div><!--container-->
+        </div><!--center-->
+
+    </section><!--box1-->
+    <style>
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+
+}
+
+body{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 0, 0)), to(#222222)) fixed;
+}
+
+.center{
+max-width: 500px;
+margin: 0 auto;
+padding: 0 2%;
+}
+
+section.box1{
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 100%;
+    max-width: 135px;
+}
+
+.img-logo:hover{
+border-color:rgba(0, 0, 0, 0.845);
+}
+
+.img-logo{
+border: 4px solid white;
+border-radius: 50%;
+padding: 3px;
+transition: 0.3s;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.desc{
+  text-align: center;  
+  color: white;
+  margin: 10px 0;
+}
+
+.desc h2{
+ font-weight: normal;
+}
+
+.desc p{
+color: #dfdfdf80;
+}
+
+.link{
+    width: 100%;
+    text-align: center;
+}
+
+.link a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+}
+
+.link .link-a:hover{
+    background: white;
+    color:rgb(0, 0, 0);
+}
+
+.link .link-a{
+    position: relative;
+    border-radius: 7px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 17px 0;
+    transition: 0.3s;
+
+}
+
+.link .link-a i{
+position: absolute;
+left: 20px;
+line-height: 1.2;
+font-size: 23px;
+}
+
+.link .link-a h3{
+    font-weight: normal;
+}
+
+    </style>
